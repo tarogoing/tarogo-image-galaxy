@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//tpxipster.pp.ua/main-sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>https://tpxipster.pp.ua/post-sitemap.xml</loc>
+		<lastmod>2023-12-27T23:55:29+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://tpxipster.pp.ua/page-sitemap.xml</loc>
+		<lastmod>2023-12-26T23:50:02+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://tpxipster.pp.ua/category-sitemap.xml</loc>
+		<lastmod>2023-12-27T23:55:29+00:00</lastmod>
+	</sitemap>
+</sitemapindex>

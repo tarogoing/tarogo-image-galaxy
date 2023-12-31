@@ -1,0 +1,130 @@
+2023-11-30T07:16:39+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php:36
+Stack trace:
+#0 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php(12): SuperbThemesCustomizer\Modules\Navigation\NavigationMenu->Render()
+#1 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-layout-large.php(53): SuperbThemesCustomizer\Modules\Navigation\NavigationMenu->__construct()
+#2 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-layout-large.php(11): SuperbThemesCustomizer\Modules\Navigation\NavigationLayoutLarge->Render()
+#3 /bitnami/wordpress/wp-content/themes/superb-pixels/header.php(40): SuperbThemesCustomizer\Modules\Navigation\NavigationLayoutLarge->__construct()
+#4 /opt/bitnami/wordpress/wp-includes/template.php(790): require_once('...')
+#5 /opt/bitnami/wordpress/wp-includes/template.php(725): load_template()
+#6 /opt/bitnami/wordpress/wp-includes/general-template.php(48): locate_template()
+#7 /opt/bitnami/wordpress/wp-signup.php(89): get_header()
+#8 {main}
+  thrown in /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php on line 36
+
+2023-11-30T07:16:40+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php:36
+Stack trace:
+#0 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php(12): SuperbThemesCustomizer\Modules\Navigation\NavigationMenu->Render()
+#1 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-layout-large.php(53): SuperbThemesCustomizer\Modules\Navigation\NavigationMenu->__construct()
+#2 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-layout-large.php(11): SuperbThemesCustomizer\Modules\Navigation\NavigationLayoutLarge->Render()
+#3 /bitnami/wordpress/wp-content/themes/superb-pixels/header.php(40): SuperbThemesCustomizer\Modules\Navigation\NavigationLayoutLarge->__construct()
+#4 /opt/bitnami/wordpress/wp-includes/template.php(790): require_once('...')
+#5 /opt/bitnami/wordpress/wp-includes/template.php(725): load_template()
+#6 /opt/bitnami/wordpress/wp-includes/general-template.php(48): locate_template()
+#7 /opt/bitnami/wordpress/wp-signup.php(89): get_header()
+#8 {main}
+  thrown in /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php on line 36
+
+2023-11-30T07:16:41+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php:36
+Stack trace:
+#0 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php(12): SuperbThemesCustomizer\Modules\Navigation\NavigationMenu->Render()
+#1 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-layout-large.php(53): SuperbThemesCustomizer\Modules\Navigation\NavigationMenu->__construct()
+#2 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-layout-large.php(11): SuperbThemesCustomizer\Modules\Navigation\NavigationLayoutLarge->Render()
+#3 /bitnami/wordpress/wp-content/themes/superb-pixels/header.php(40): SuperbThemesCustomizer\Modules\Navigation\NavigationLayoutLarge->__construct()
+#4 /opt/bitnami/wordpress/wp-includes/template.php(790): require_once('...')
+#5 /opt/bitnami/wordpress/wp-includes/template.php(725): load_template()
+#6 /opt/bitnami/wordpress/wp-includes/general-template.php(48): locate_template()
+#7 /opt/bitnami/wordpress/wp-signup.php(89): get_header()
+#8 {main}
+  thrown in /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php on line 36
+
+2023-11-30T07:16:42+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php:36
+Stack trace:
+#0 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php(12): SuperbThemesCustomizer\Modules\Navigation\NavigationMenu->Render()
+#1 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-layout-large.php(53): SuperbThemesCustomizer\Modules\Navigation\NavigationMenu->__construct()
+#2 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-layout-large.php(11): SuperbThemesCustomizer\Modules\Navigation\NavigationLayoutLarge->Render()
+#3 /bitnami/wordpress/wp-content/themes/superb-pixels/header.php(40): SuperbThemesCustomizer\Modules\Navigation\NavigationLayoutLarge->__construct()
+#4 /opt/bitnami/wordpress/wp-includes/template.php(790): require_once('...')
+#5 /opt/bitnami/wordpress/wp-includes/template.php(725): load_template()
+#6 /opt/bitnami/wordpress/wp-includes/general-template.php(48): locate_template()
+#7 /opt/bitnami/wordpress/wp-signup.php(89): get_header()
+#8 {main}
+  thrown in /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php on line 36
+
+2023-11-30T07:16:44+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php:36
+Stack trace:
+#0 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php(12): SuperbThemesCustomizer\Modules\Navigation\NavigationMenu->Render()
+#1 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-layout-large.php(53): SuperbThemesCustomizer\Modules\Navigation\NavigationMenu->__construct()
+#2 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-layout-large.php(11): SuperbThemesCustomizer\Modules\Navigation\NavigationLayoutLarge->Render()
+#3 /bitnami/wordpress/wp-content/themes/superb-pixels/header.php(40): SuperbThemesCustomizer\Modules\Navigation\NavigationLayoutLarge->__construct()
+#4 /opt/bitnami/wordpress/wp-includes/template.php(790): require_once('...')
+#5 /opt/bitnami/wordpress/wp-includes/template.php(725): load_template()
+#6 /opt/bitnami/wordpress/wp-includes/general-template.php(48): locate_template()
+#7 /opt/bitnami/wordpress/wp-signup.php(89): get_header()
+#8 {main}
+  thrown in /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php on line 36
+
+2023-11-30T17:26:33+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php:36
+Stack trace:
+#0 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php(12): SuperbThemesCustomizer\Modules\Navigation\NavigationMenu->Render()
+#1 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-layout-large.php(53): SuperbThemesCustomizer\Modules\Navigation\NavigationMenu->__construct()
+#2 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-layout-large.php(11): SuperbThemesCustomizer\Modules\Navigation\NavigationLayoutLarge->Render()
+#3 /bitnami/wordpress/wp-content/themes/superb-pixels/header.php(40): SuperbThemesCustomizer\Modules\Navigation\NavigationLayoutLarge->__construct()
+#4 /opt/bitnami/wordpress/wp-includes/template.php(790): require_once('...')
+#5 /opt/bitnami/wordpress/wp-includes/template.php(725): load_template()
+#6 /opt/bitnami/wordpress/wp-includes/general-template.php(48): locate_template()
+#7 /opt/bitnami/wordpress/wp-signup.php(89): get_header()
+#8 {main}
+  thrown in /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php on line 36
+
+2023-11-30T17:26:35+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php:36
+Stack trace:
+#0 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php(12): SuperbThemesCustomizer\Modules\Navigation\NavigationMenu->Render()
+#1 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-layout-large.php(53): SuperbThemesCustomizer\Modules\Navigation\NavigationMenu->__construct()
+#2 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-layout-large.php(11): SuperbThemesCustomizer\Modules\Navigation\NavigationLayoutLarge->Render()
+#3 /bitnami/wordpress/wp-content/themes/superb-pixels/header.php(40): SuperbThemesCustomizer\Modules\Navigation\NavigationLayoutLarge->__construct()
+#4 /opt/bitnami/wordpress/wp-includes/template.php(790): require_once('...')
+#5 /opt/bitnami/wordpress/wp-includes/template.php(725): load_template()
+#6 /opt/bitnami/wordpress/wp-includes/general-template.php(48): locate_template()
+#7 /opt/bitnami/wordpress/wp-signup.php(89): get_header()
+#8 {main}
+  thrown in /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php on line 36
+
+2023-11-30T17:26:36+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php:36
+Stack trace:
+#0 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php(12): SuperbThemesCustomizer\Modules\Navigation\NavigationMenu->Render()
+#1 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-layout-large.php(53): SuperbThemesCustomizer\Modules\Navigation\NavigationMenu->__construct()
+#2 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-layout-large.php(11): SuperbThemesCustomizer\Modules\Navigation\NavigationLayoutLarge->Render()
+#3 /bitnami/wordpress/wp-content/themes/superb-pixels/header.php(40): SuperbThemesCustomizer\Modules\Navigation\NavigationLayoutLarge->__construct()
+#4 /opt/bitnami/wordpress/wp-includes/template.php(790): require_once('...')
+#5 /opt/bitnami/wordpress/wp-includes/template.php(725): load_template()
+#6 /opt/bitnami/wordpress/wp-includes/general-template.php(48): locate_template()
+#7 /opt/bitnami/wordpress/wp-signup.php(89): get_header()
+#8 {main}
+  thrown in /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php on line 36
+
+2023-11-30T17:26:38+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php:36
+Stack trace:
+#0 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php(12): SuperbThemesCustomizer\Modules\Navigation\NavigationMenu->Render()
+#1 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-layout-large.php(53): SuperbThemesCustomizer\Modules\Navigation\NavigationMenu->__construct()
+#2 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-layout-large.php(11): SuperbThemesCustomizer\Modules\Navigation\NavigationLayoutLarge->Render()
+#3 /bitnami/wordpress/wp-content/themes/superb-pixels/header.php(40): SuperbThemesCustomizer\Modules\Navigation\NavigationLayoutLarge->__construct()
+#4 /opt/bitnami/wordpress/wp-includes/template.php(790): require_once('...')
+#5 /opt/bitnami/wordpress/wp-includes/template.php(725): load_template()
+#6 /opt/bitnami/wordpress/wp-includes/general-template.php(48): locate_template()
+#7 /opt/bitnami/wordpress/wp-signup.php(89): get_header()
+#8 {main}
+  thrown in /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php on line 36
+
+2023-11-30T17:26:38+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php:36
+Stack trace:
+#0 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php(12): SuperbThemesCustomizer\Modules\Navigation\NavigationMenu->Render()
+#1 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-layout-large.php(53): SuperbThemesCustomizer\Modules\Navigation\NavigationMenu->__construct()
+#2 /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-layout-large.php(11): SuperbThemesCustomizer\Modules\Navigation\NavigationLayoutLarge->Render()
+#3 /bitnami/wordpress/wp-content/themes/superb-pixels/header.php(40): SuperbThemesCustomizer\Modules\Navigation\NavigationLayoutLarge->__construct()
+#4 /opt/bitnami/wordpress/wp-includes/template.php(790): require_once('...')
+#5 /opt/bitnami/wordpress/wp-includes/template.php(725): load_template()
+#6 /opt/bitnami/wordpress/wp-includes/general-template.php(48): locate_template()
+#7 /opt/bitnami/wordpress/wp-signup.php(89): get_header()
+#8 {main}
+  thrown in /bitnami/wordpress/wp-content/themes/superb-pixels/src/modules/navigation/class-navigation-menu.php on line 36
+

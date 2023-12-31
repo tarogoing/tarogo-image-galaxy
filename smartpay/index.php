@@ -1,0 +1,2 @@
+<?php
+// SmartPay is awesome!.

@@ -1,0 +1,22 @@
+2023-12-30T23:16:12+00:00 CRITICAL Uncaught Error: Call to undefined function each() in /bitnami/wordpress/wp-content/plugins/wp-github-gos-master/wordpress-gos.php:366
+Stack trace:
+#0 /bitnami/wordpress/wp-content/plugins/wp-github-gos-master/wordpress-gos.php(455): github_read_dir_queue()
+#1 /opt/bitnami/wordpress/wp-includes/class-wp-hook.php(324): github_setting_page()
+#2 /opt/bitnami/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /opt/bitnami/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /opt/bitnami/wordpress/wp-admin/admin.php(259): do_action()
+#5 /opt/bitnami/wordpress/wp-admin/options-general.php(10): require_once('...')
+#6 {main}
+  thrown in /bitnami/wordpress/wp-content/plugins/wp-github-gos-master/wordpress-gos.php on line 366
+
+2023-12-30T23:18:31+00:00 CRITICAL Uncaught Error: Call to undefined function each() in /bitnami/wordpress/wp-content/plugins/wp-github-gos-master/wordpress-gos.php:366
+Stack trace:
+#0 /bitnami/wordpress/wp-content/plugins/wp-github-gos-master/wordpress-gos.php(455): github_read_dir_queue()
+#1 /opt/bitnami/wordpress/wp-includes/class-wp-hook.php(324): github_setting_page()
+#2 /opt/bitnami/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /opt/bitnami/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /opt/bitnami/wordpress/wp-admin/admin.php(259): do_action()
+#5 /opt/bitnami/wordpress/wp-admin/options-general.php(10): require_once('...')
+#6 {main}
+  thrown in /bitnami/wordpress/wp-content/plugins/wp-github-gos-master/wordpress-gos.php on line 366
+

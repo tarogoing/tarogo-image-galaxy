@@ -1,0 +1,41 @@
+2023-12-30T23:19:26+00:00 CRITICAL Uncaught Error: Undefined constant "设置" in /bitnami/wordpress/wp-content/plugins/wp-github-gos-master/wordpress-gos.php:412
+Stack trace:
+#0 /opt/bitnami/wordpress/wp-includes/class-wp-hook.php(326): github_plugin_action_links()
+#1 /opt/bitnami/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#2 /bitnami/wordpress/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-sync/src/modules/class-callables.php(377): apply_filters()
+#3 /opt/bitnami/wordpress/wp-includes/class-wp-hook.php(324): Automattic\Jetpack\Sync\Modules\Callables->set_plugin_action_links()
+#4 /opt/bitnami/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /opt/bitnami/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /opt/bitnami/wordpress/wp-admin/includes/class-wp-screen.php(424): do_action()
+#7 /opt/bitnami/wordpress/wp-admin/includes/screen.php(243): WP_Screen->set_current_screen()
+#8 /opt/bitnami/wordpress/wp-admin/admin.php(212): set_current_screen()
+#9 /opt/bitnami/wordpress/wp-admin/plugins.php(10): require_once('...')
+#10 {main}
+  thrown in /bitnami/wordpress/wp-content/plugins/wp-github-gos-master/wordpress-gos.php on line 412
+
+2023-12-30T23:19:35+00:00 CRITICAL Uncaught Error: Undefined constant "设置" in /bitnami/wordpress/wp-content/plugins/wp-github-gos-master/wordpress-gos.php:412
+Stack trace:
+#0 /opt/bitnami/wordpress/wp-includes/class-wp-hook.php(326): github_plugin_action_links()
+#1 /opt/bitnami/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#2 /bitnami/wordpress/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-sync/src/modules/class-callables.php(377): apply_filters()
+#3 /opt/bitnami/wordpress/wp-includes/class-wp-hook.php(324): Automattic\Jetpack\Sync\Modules\Callables->set_plugin_action_links()
+#4 /opt/bitnami/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /opt/bitnami/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /opt/bitnami/wordpress/wp-admin/includes/class-wp-screen.php(424): do_action()
+#7 /opt/bitnami/wordpress/wp-admin/includes/screen.php(243): WP_Screen->set_current_screen()
+#8 /opt/bitnami/wordpress/wp-admin/admin.php(212): set_current_screen()
+#9 /opt/bitnami/wordpress/wp-admin/plugins.php(10): require_once('...')
+#10 {main}
+  thrown in /bitnami/wordpress/wp-content/plugins/wp-github-gos-master/wordpress-gos.php on line 412
+
+2023-12-30T23:20:16+00:00 CRITICAL Uncaught Error: Call to undefined function each() in /bitnami/wordpress/wp-content/plugins/wp-github-gos-master/wordpress-gos.php:366
+Stack trace:
+#0 /bitnami/wordpress/wp-content/plugins/wp-github-gos-master/wordpress-gos.php(455): github_read_dir_queue()
+#1 /opt/bitnami/wordpress/wp-includes/class-wp-hook.php(324): github_setting_page()
+#2 /opt/bitnami/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /opt/bitnami/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /opt/bitnami/wordpress/wp-admin/admin.php(259): do_action()
+#5 /opt/bitnami/wordpress/wp-admin/options-general.php(10): require_once('...')
+#6 {main}
+  thrown in /bitnami/wordpress/wp-content/plugins/wp-github-gos-master/wordpress-gos.php on line 366
+

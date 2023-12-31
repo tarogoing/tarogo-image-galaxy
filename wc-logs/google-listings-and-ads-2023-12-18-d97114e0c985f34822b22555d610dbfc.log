@@ -1,0 +1,6 @@
+2023-12-18T22:31:33+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 447): ["\u670d\u8d38\u5546\u54c1"].
+2023-12-18T22:31:35+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\ProductSyncer::update_by_batch_requests Submitted 1 products:
+[{"woocommerce_id":447,"google_id":"online:en:HK:gla_447"}]
+2023-12-18T23:39:35+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 455): ["\u670d\u8d38\u5546\u54c1"].
+2023-12-18T23:39:38+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\ProductSyncer::update_by_batch_requests Submitted 1 products:
+[{"woocommerce_id":455,"google_id":"online:en:HK:gla_455"}]

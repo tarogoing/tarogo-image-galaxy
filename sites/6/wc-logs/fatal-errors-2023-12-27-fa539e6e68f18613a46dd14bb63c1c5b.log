@@ -1,0 +1,46 @@
+2023-12-27T00:23:52+00:00 CRITICAL Uncaught Error: Class "WC_Payments_Admin" not found in /bitnami/wordpress/wp-content/plugins/woocommerce-payments/includes/class-wc-payments-incentives-service.php:58
+Stack trace:
+#0 /opt/bitnami/wordpress/wp-includes/class-wp-hook.php(324): WC_Payments_Incentives_Service->add_payments_menu_badge()
+#1 /opt/bitnami/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /opt/bitnami/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /opt/bitnami/wordpress/wp-admin/includes/menu.php(161): do_action()
+#4 /opt/bitnami/wordpress/wp-admin/menu.php(417): require_once('...')
+#5 /bitnami/wordpress/wp-content/plugins/jetpack/_inc/lib/core-api/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-admin-menu.php(92): require_once('...')
+#6 /opt/bitnami/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1193): WPCOM_REST_API_V2_Endpoint_Admin_Menu->get_item()
+#7 /opt/bitnami/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#8 /opt/bitnami/wordpress/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch()
+#9 /opt/bitnami/wordpress/wp-includes/rest-api.php(424): WP_REST_Server->serve_request()
+#10 /opt/bitnami/wordpress/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#11 /opt/bitnami/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#12 /opt/bitnami/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action()
+#13 /opt/bitnami/wordpress/wp-includes/class-wp.php(418): do_action_ref_array()
+#14 /opt/bitnami/wordpress/wp-includes/class-wp.php(813): WP->parse_request()
+#15 /opt/bitnami/wordpress/wp-includes/functions.php(1336): WP->main()
+#16 /opt/bitnami/wordpress/wp-blog-header.php(16): wp()
+#17 /opt/bitnami/wordpress/index.php(17): require('...')
+#18 {main}
+  thrown in /bitnami/wordpress/wp-content/plugins/woocommerce-payments/includes/class-wc-payments-incentives-service.php on line 58
+
+2023-12-27T03:30:31+00:00 CRITICAL Uncaught Error: Class "WC_Payments_Admin" not found in /bitnami/wordpress/wp-content/plugins/woocommerce-payments/includes/class-wc-payments-incentives-service.php:58
+Stack trace:
+#0 /opt/bitnami/wordpress/wp-includes/class-wp-hook.php(324): WC_Payments_Incentives_Service->add_payments_menu_badge()
+#1 /opt/bitnami/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /opt/bitnami/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /opt/bitnami/wordpress/wp-admin/includes/menu.php(161): do_action()
+#4 /opt/bitnami/wordpress/wp-admin/menu.php(417): require_once('...')
+#5 /bitnami/wordpress/wp-content/plugins/jetpack/_inc/lib/core-api/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-admin-menu.php(92): require_once('...')
+#6 /opt/bitnami/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1193): WPCOM_REST_API_V2_Endpoint_Admin_Menu->get_item()
+#7 /opt/bitnami/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#8 /opt/bitnami/wordpress/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch()
+#9 /opt/bitnami/wordpress/wp-includes/rest-api.php(424): WP_REST_Server->serve_request()
+#10 /opt/bitnami/wordpress/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#11 /opt/bitnami/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#12 /opt/bitnami/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action()
+#13 /opt/bitnami/wordpress/wp-includes/class-wp.php(418): do_action_ref_array()
+#14 /opt/bitnami/wordpress/wp-includes/class-wp.php(813): WP->parse_request()
+#15 /opt/bitnami/wordpress/wp-includes/functions.php(1336): WP->main()
+#16 /opt/bitnami/wordpress/wp-blog-header.php(16): wp()
+#17 /opt/bitnami/wordpress/index.php(17): require('...')
+#18 {main}
+  thrown in /bitnami/wordpress/wp-content/plugins/woocommerce-payments/includes/class-wc-payments-incentives-service.php on line 58
+
